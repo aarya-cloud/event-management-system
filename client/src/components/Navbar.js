@@ -12,7 +12,7 @@ const Navbar = () => {
   useEffect(() => {
     const stored = JSON.parse(localStorage.getItem('user'));
     if (stored) setUser(stored);
-  }, []);
+  }, [setUser]);
 
   const handleLogout = () => {
     localStorage.clear();

@@ -35,24 +35,6 @@ const EventDetails = () => {
     fetchEvent();
   }, [id]);
 
-  const handleBooking = async () => {
-    try {
-      const token = localStorage.getItem('token');
-      if (!token) return navigate('/login');
-
-      await axios.post('/bookings', { eventId: event._id }, {
-        headers: {
-          Authorization: `Bearer ${token}`,
-        },
-      });
-
-      alert('✅ Booking successful!');
-      navigate('/dashboard');
-    } catch (err) {
-      alert(err.response?.data?.message || 'Booking failed');
-    }
-  };
-
   if (!event) return <p className="text-center mt-10">Loading event...</p>;
 
   return (

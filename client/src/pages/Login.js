@@ -7,7 +7,7 @@ import { toast } from 'react-toastify';
 
 const Login = () => {
   const [form, setForm] = useState({ email: '', password: '' });
-  const [error, setError] = useState('');
+  const [error] = useState('');
   const { setUser } = useContext(AuthContext);
   const navigate = useNavigate();
 
