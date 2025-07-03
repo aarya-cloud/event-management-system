@@ -56,7 +56,7 @@ EMAIL_PASS=your_email_password
 4. Start the server:
 npm run dev
 
-<b>Frontend</b>
+Frontend
 1. Go to the client folder:
 cd ../client
 
@@ -80,7 +80,9 @@ Check out the live demo of the project here:
 https://drive.google.com/file/d/1QguA6P9NZyG80ytPIeUIFrXqcUMSS8au/view?usp=share_link
 
 ✍️ Author
+
 Aarya Patankar
 
 📃 License
+
 This project is licensed under the MIT License.
