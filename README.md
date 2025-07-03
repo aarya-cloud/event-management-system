@@ -72,8 +72,9 @@ npm start
 
 🌐 <b>Deployment</b>
 
-Frontend: [Netlify/Vercel](https://68614b08511d55be245141b0--eventmanagement2025.netlify.app/)
-Backend: [Render/Railway](https://event-management-system-q7r9.onrender.com/api)
+Frontend: [Check the Frontend](https://68614b08511d55be245141b0--eventmanagement2025.netlify.app/)
+
+Backend: [Render](https://event-management-system-q7r9.onrender.com/api)
 
 
 Check out the live demo of the project here:
